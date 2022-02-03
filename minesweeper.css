@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.grid {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:  gray;
+}
+
+.grid div {
+    border: 1px solid rgb(209, 199, 199);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.width-five {
+    width: 80px;
+    height:80px;
+}
+
+.width-ten {
+    width: 40px;
+    height: 40px;
+}
+
+.checked {
+    background-color: rgb(233, 107, 107);
+}
+
+#flags-left {
+    display: flex;
+    margin-top: 10px;
+    width: 400px;
+    justify-content: center;
+}
+
+/* .bomb {
+    background-color: orange;
+} */
